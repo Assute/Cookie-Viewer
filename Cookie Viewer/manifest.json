@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "一键查看并保存 Cookie",
+  "version": "1.0",
+  "description": "在弹窗中查看当前网站的 Cookie，并支持复制和下载为 cookie.txt",
+  "permissions": [
+    "cookies",
+    "downloads",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "查看 / 保存 Cookie",
+    "default_popup": "popup.html"
+  }
+}
